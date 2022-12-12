@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+    .info-pet{
+    margin: 20px;
+    }
+    .info-pet img{
+    width: 480px;
+    height: 280px;
+    border-radius: 20%;
+    border: 7px solid #fff;
+    }
+    body{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        )
+        ,url("media/pahu.jpg");
+    }
+    h1{
+        color: white;
+        text-align: center;
+        font-family: cursive;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+    ul{
+        text-align: center;
+        font-family: cursive;
+        margin-top: 50px;
+    }
+    p{
+        font-family: cursive;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        color: white;
+    }
+    img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: 10px;
+        margin-top: 30px;
+    }
+    @media only screen and (max-witch: 780px){
+        img{
+            width: 100%;
+        }
+    }
+    ul a{
+        color: white;
+        font-size: 22px;
+    }
+    video{
+    width: 100%;
+    height: 100%;
+    }
+    button{
+    font-size: 1.20em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(143, 13, 249, 0.568);
+    box-shadow: 2px 2px 10px rgba(222, 14, 142, 0.866);
+    color: white;
+    background-color: rgba(19, 217, 228, 0.208);
+    }
+     button:hover{
+    background-color: rgba(26, 174, 238, 0.426);
+    }
+    @media(min-width:1024px){
+    .contenedor{
+        width: 1000px;
+    }
+}
+   
+
+</style>
+<body>
+    <h1>LINDAS Y ADORABLES MASTCOTAS EN ADOPCION</h1>
+    <ul>
+    <a href="index.html"><button> 🐕‍🦺Master Cat_Love</button></a>
+    </ul>
+    <p>En esta pagina podras ver y si deseas adoptar un lindo cachorro que estara atu lado para toda la vida
+        si quieres adoptar uno sigue viendo la pagina en donde podras ver
+        mascotas que estuvimos criando
+    </p>
+    <div class="contenedor">
+        <article>
+            <img src="media/perri.jpg">
+        </article>
+        <article>
+            <img src="media/amb.jpg">
+        </article>
+  </div>
+</body>
+</html>
